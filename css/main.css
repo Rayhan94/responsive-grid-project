@@ -1,3 +1,42 @@
-/* Add your custom CSS here */
-
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+ body {
+     font-family: 'comic-sans';
+     color: rgb(10, 10, 10);
+}
 /* Dont' forget to link this file to your HTML in the <head> */
+ img{
+     width: 100%;
+}
+ h2 {
+     text-align: center;
+     text-transform: none;
+}
+ .navigation {
+     display: flex;
+     flex-direction: column;
+     font-size: 1.2rem;
+     background-color: rgb(217, 236, 252);
+     position: relative;
+     margin-top: -250px;
+     right: -180px;
+     width: 970px;
+     height: 4.375rem;
+     justify-content: center;
+}
+ .navigation li {
+     display: inline-block;
+     margin-left: 75px;
+}
+ .hero{
+     height: 20vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items:center;
+     margin-top: 20px;
+}
+ .about{
+     text-align: center;
+     margin: 0 auto;
+}
+ 
